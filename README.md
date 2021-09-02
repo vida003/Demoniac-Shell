@@ -9,6 +9,9 @@
 ### - File Upload
 ### - Eval - PHP
 ### - SQL Query (only pgsql/mysql)
+### - Get Infos from uid/gid (only linux server)
+### - Line Exec
+### - Information about web server
 ### - Rev Shell - payloads:
 ####  - Linux Server:
 ####    /bin/bash
@@ -16,6 +19,3 @@
 ####  - Windows Server:
 ####    cmd
 ####    powershell
-### - Get Infos from uid/gid (only linux server)
-### - Line Exec
-### - Information about web server
