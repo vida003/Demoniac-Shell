@@ -10,10 +10,10 @@
 ### - Eval - PHP
 ### - SQL Query (only pgsql/mysql)
 ### - Rev Shell (payloads:
-####  Linux Server:
+####  - Linux Server:
 ####    /bin/bash
 ####    /bin/sh
-####  Windows Server:
+####  - Windows Server:
 ####    cmd
 ####    powershell
 ### )
