@@ -1,5 +1,4 @@
-# Demoniac-Shell
-## My web shell open source in php
+# Demoniac Web Shell
 
 ### Main:
 ## How to access: send the d3moniac parameter via get
