@@ -10,13 +10,13 @@
 ### - Eval - PHP
 ### - SQL Query (only pgsql/mysql)
 ### - Rev Shell (payloads:
-### - Linux Server:
+####  Linux Server:
 ####    /bin/bash
 ####    /bin/sh
-####   Windows Server:
+####  Windows Server:
 ####    cmd
 ####    powershell
-#### )
+### )
 ### - Get Infos from uid/gid (only linux server)
 ### - Line Exec
 ### - Information about web server
