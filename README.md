@@ -1,5 +1,4 @@
-# <p align="center">⛧ Demoniac WebShell</p>
-<img src="https://user-images.githubusercontent.com/77762068/131859851-e7e060ed-9e68-44b2-86db-158eca64418e.png">
+# <p align="center">⛧ Demoniac WebShell ⛧</p>
 
 - DemoniacShell is WebShell in PHP.
 
