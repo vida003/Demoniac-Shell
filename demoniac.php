@@ -6,8 +6,8 @@ ob_start();
     Writed by: vida
     Version: 1.0
 [ACCOUNT - DEFAULT]:
-    Username: v1d4
-    Password: v1d4
+    Username: v1da
+    Password: v1da
 */
 session_start();
 error_reporting(0);
