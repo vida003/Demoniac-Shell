@@ -7,8 +7,8 @@
 ##                                  ##
 ##	default user: v1da				      ##
 ##	default pass: v1da				      ##
-##	default get param: d3moniac		  ##
-##									                ##
+##	default get param: d3moniac##
+##									        ##
 ##	discord: vida#3913	    ##
 ######################################
 */
