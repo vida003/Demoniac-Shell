@@ -14,7 +14,7 @@
 	
 	SQL Query (only pgsql/mysql)
 	
-	Get Infos from uid/gid (only linux server)
+	Get Infos from uid/gid (only linux)
 	
 	Line Exec 
 	
